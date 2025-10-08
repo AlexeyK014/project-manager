@@ -59,7 +59,8 @@ export const CreateTaskDialog = ({
       description: "",
       status: "To Do",
       priority: "Medium",
-      dueDate: "",
+      dueDate: undefined,
+      // dueDate: "",
       assignees: [],
     },
   });
