@@ -7,14 +7,8 @@
 //       required: true,
 //       trim: true,
 //     },
-//     description: {
-//       type: String,
-//       trim: true,
-//     },
-//     color: {
-//       type: String,
-//       default: "#FF5733",
-//     },
+//     description: { type: String, trim: true },
+//     color: { type: String, default: "#FF5733" },
 //     owner: {
 //       type: Schema.Types.ObjectId,
 //       ref: "User",
@@ -36,7 +30,7 @@
 //   { timestamps: true }
 // );
 
-// const Workspace = mongoose.model('Workspace', workspaceModel);
+// const Workspace = mongoose.model("Workspace", workspaceModel);
 
 // export default Workspace;
 
